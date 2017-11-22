@@ -1,0 +1,29 @@
+{
+  "name": "onebot",
+  "version": "1.0.0",
+  "description": "Bot that works everywhere. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhomitb/OneBot.git"
+  },
+  "keywords": [
+    "botframework",
+    "alexaskillkit",
+    "chatbots"
+  ],
+  "author": "BhomitB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhomitb/OneBot/issues"
+  },
+  "homepage": "https://github.com/bhomitb/OneBot#readme",
+  "dependencies": {
+    "botbuilder": "^3.12.0",
+    "dotenv": "^4.0.0",
+    "restify": "^6.3.4"
+  }
+}

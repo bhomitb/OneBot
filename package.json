@@ -4,6 +4,7 @@
   "description": "Bot that works everywhere. ",
   "main": "app.js",
   "scripts": {
+    "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,8 +23,10 @@
   },
   "homepage": "https://github.com/bhomitb/OneBot#readme",
   "dependencies": {
-    "botbuilder": "^3.12.0",
+    "alexa-app": "^4.2.0",
+    "botbuilder": "^3.13.1",
     "dotenv": "^4.0.0",
-    "restify": "^6.3.4"
+    "express": "^4.16.2",
+    "x509": "^0.3.3"
   }
 }

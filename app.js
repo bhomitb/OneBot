@@ -4,5 +4,6 @@
 //==================================================
 //Importing Modules
 //==================================================
-let Alexa = require("./controllers/AlexaCtrl");
-let Bot = require("./controllers/BotCtrl");
+const Alexa = require("./src/controllers/AlexaCtrl");
+const Bot = require("./src/controllers/BotCtrl");
+const Dialogflow = require("./src/controllers/DialogflowCtrl");

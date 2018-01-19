@@ -6,7 +6,7 @@ var intents = botsetup.intents; //Define intents from luis model
 
 //Import Dialogs
 // var Greeting = require("./resources/Dialogs/Greetings");
-var Help = require("../resources/dialogs/help");
+var Help = require("../../resources/dialogs/help");
 
 intents.onDefault(Help.dialogs);
 
